@@ -1,0 +1,154 @@
+/* /header */
+.logo{
+    margin-top: 15px;
+    margin-left: 35px;
+    color: black;
+    font-weight: bold;
+   
+
+}
+.header{
+display: flex;
+justify-content: space-between;
+background-color: rgb(238, 232, 170);
+}
+
+
+.div-ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+
+.li-1{
+    margin-right: 35px;
+    font-weight: bold;
+
+}
+
+/* section 1 */
+
+
+
+.imj-2{
+    background-image: url(../photo/4d6e10_87b7cd56363e40f195420bafa239f586_mv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 1366px;
+    width: 100%;
+    height: 650px;
+  
+}
+
+.divider{
+    height: 2px;
+    max-width: 65%;
+    width: 100%;
+    background-color: black;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.section-box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width:750px ;
+    height: auto;
+    width: 100%;
+    border: black 2px solid;
+    margin:0 auto;
+    padding: 3%;
+    background-color:white;
+    margin-left: 270px;
+    margin-top: 600px;
+    
+
+    
+
+    
+
+
+}
+.section-p{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(30, 30, 21);
+    font-size: 17px;
+    text-indent: 35px;
+    
+}
+
+.h-3{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30x;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    letter-spacing:8px;
+}
+
+/* section2 */
+
+.wraper-image-1{
+    background-image:url(../photo/farmhouse.jpg);
+    max-width: 560px;
+    width: 100%;
+    height: 450px;
+    border-radius: 25px;
+    border: wheat 3px solid;
+    margin-left: 90px;
+}
+
+
+
+.wraper-image-1-h2{
+    display: none;
+    
+}
+
+.wraper-image-1-p{
+    display: none;
+    text-align: center;
+}
+
+
+
+.wraper-image-2{
+    background-image: url(../photo/gatstby\ gold.webp);
+    max-width:450px ;
+    width: 100%;
+    height: 350px;
+    border-radius: 25px;
+    border: wheat 3px solid;
+    margin-top: 100px;
+    margin-right: 90px;
+}
+
+.section-2{
+    margin-top: 500px;
+
+}
+
+.wraper-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-2{
+margin-left: 260px;
+font-size: 40px;
+letter-spacing:15px;
+margin-bottom: 36px;
+
+    
+}
+
