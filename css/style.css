@@ -4,9 +4,19 @@
     margin-left: 35px;
     color: black;
     font-weight: bold;
+    animation: logo 5s infinite;
+	animation-timing-function: linear
    
 
 }
+
+@keyframes logo{
+    0%{transform:translateX(15px);}
+    25%{transform:translateX(50px);}
+    50%{transform:translateX(65px);}
+    100%{transform:translateX(80px);}
+}
+
 .header{
 display: flex;
 justify-content: space-between;
@@ -285,6 +295,7 @@ margin-bottom: 36px;
 .fa-linkedin-in{
 color: cornflowerblue;
 margin-left: 10px;
+margin-top: 110px;
 
 }
 
@@ -354,8 +365,12 @@ margin-left: 10px;
    margin-top: 60px;
    border-radius: 25px;
    border: wheat 3px solid;
+   opacity: 0.5;
 }
 
+.shop-img:hover {
+    opacity: 1;
+  }
 .shop-div{
     
     max-width: 340px;
@@ -459,7 +474,62 @@ margin-left: 10px;
    letter-spacing:8px;
    color: black;
    margin-bottom: 15px;
+   text-shadow: 0 0 3px #000000;
 }
 
+
+.textarea-wraper{
+    max-width: 350px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    border-color: #E8E8E8;
+}
+ textarea:focus,
+input:focus {
+    outline: none;
+    
+} 
+
+.input-wraper-text{
+    max-width: 360px;
+    width: 100%;
+    border-color: #E8E8E8;
+    background-color: E8E8E8;
+   
+}
+
+.input{
+    max-width:250px;
+    width: 100%;
+    height: 25px;
+    background-color: E8E8E8;
+    margin-bottom: 16px;
+    border-color: #E8E8E8;
+} 
+
+.h-1{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.form-wraper{
+    display: flex;
+    
+    margin-top: 50px;
+    margin-left: 110px;
+
+}
+
+
+.stay-touch{
+    margin-left: 110px;
+    margin-top: 90px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: black;
+
+}
 
 
