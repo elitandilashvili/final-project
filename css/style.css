@@ -75,18 +75,12 @@ background-color:rgb(223, 191, 159);
     height: auto;
     width: 100%;
     border: black 2px solid;
-    margin:0 auto;
     padding: 3%;
     background-color:white;
-    margin-left: 270px;
-    margin-top: 600px;
+    left: 270px;
+    top: 600px;
+    /* transform: translate(270px,600px); */
     
-
-    
-
-    
-
-
 }
 .section-p{
     text-align: center;
@@ -336,8 +330,21 @@ margin-top: 110px;
     font-weight: bold;
     padding-top: 15px;
    
+   
   
     
+}
+
+.info{
+    margin-left: 3px;
+    
+}
+
+.info-1{
+    margin-left: 25px;
+}
+.info-2{
+    margin-left: 13px;
 }
 
 .information-h3{
