@@ -423,6 +423,8 @@ margin-top: 110px;
     display: flex;
     justify-content: space-between;
     padding: 60px;
+    max-width: 1200px;
+    flex-wrap: wrap;
 }
 .loadmore{
     max-width: 100px;
@@ -550,12 +552,10 @@ input:focus {
 
 
 /* burger icon */
-.burger-icon {
-    display: none;
-}
+
 
 .nav-bar {
-	/* position: absolute; */
+    position: absolute;
 	background-color: #122;
 	top: 0;
 	right: 100%;
@@ -564,7 +564,9 @@ input:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    z-index: 10; 
 }
+
 .toggle {
 	left: 0;
 }
@@ -607,6 +609,6 @@ input:focus {
 	transform: scale(0.9) rotate(45deg) translate(-6px, -4px);
 }
 
-.header-wraper{
+ .header-wraper{
     display: none;
-}
+} 
