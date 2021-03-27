@@ -72,6 +72,9 @@ background-color:rgb(223, 191, 159);
     display: flex;
     flex-direction: column;
     max-width:750px ;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
     height: auto;
     width: 100%;
     border: black 2px solid;
@@ -421,10 +424,13 @@ margin-top: 110px;
 }
 .shop-section{
     display: flex;
-    justify-content: space-between;
-    padding: 60px;
+    margin: 0 auto;
+    align-items: center;
+    margin-left: 90px;
     max-width: 1200px;
     flex-wrap: wrap;
+    justify-content:space-around;
+
 }
 .loadmore{
     max-width: 100px;
